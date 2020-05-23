@@ -48,7 +48,21 @@
 	<li><b>Encrypted E-mail:</b> The public key is used to encrypt the message, while the private key is used to decrypt it.</li>
 	<li><b>SSL/TLS:</b>Use Asymmetic encryption to esablish an encrypted channel between the server and the user's web browsers.</li>
 </ul>
-<br><br>
+<br>
+
+
+<h2>Advantages and Disadvantages</h2>
+<p>The below table shows the advantages and disavatanges of using Asymmetric key</p>
+<table>
+	<thead><td></td><td></td></thead>
+	<tbody>
+		<tr><td>Key distribution problem is removed because the exchange of keys is not necessary. </td><td>It's a slow process compared to symmetric cryptography, so decryption of bulk messages is not necessary. </td></tr>
+		<tr><td>Security is improved because the private keys never need to be sent on or disclosed to others. </td><td>When an person loses his or her private key, the messages he or she receives can not be decrypted. </td></tr>
+		<tr><td>The use of digital signatures is allowed so that the recipient can verify that a message originates from a particular sender. </td><td>Considering that the public keys are not authenticated, no one really knows if a public key belongs to the stated individual. Accordingly, users must check that they own their public keys.</td></tr>
+		<tr><td>It allows non-repudiation, so that the sender can not refuse to send a message.</td><td>When a hacker discovers a private key for a person, the attacker would be able to read all messages from that individual.</td></tr>
+	</tbody>
+</table>
+<br>
 <h2>Examples</h2>
 <p>There are a lot of Asymmetric key encryption algorithms, and below sample of it:</p>
 <ul>
