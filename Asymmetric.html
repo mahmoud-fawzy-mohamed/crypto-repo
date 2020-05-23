@@ -17,6 +17,10 @@
 	</table>
 </center>
 <h1>Encryption - ASymmetric Key</h1>
+<center>
+	<img src="Images/public-key.png" width="900" height="500">
+</center>
+<br><br>
 <h2>Defination</h2>
 <p>Asymmetric cryptography, also called public-key cryptography, is a method using a pair of different keys, as it uses two keys: Public key and Private key. One ke used in encryption, while the other one is used to decryption. The two keys has mathematical relationship, So the used key in the encryption, can not be used for decryption. This is used to encrypt and decrypt a message and to avoid unauthorized access or use of this.</p>
 <h2>Keys</h2>
@@ -25,8 +29,35 @@
 	<li><b>The private key</b>also known as a secret key — is only exchanged with the initiator of a key.</li>
 </ul>
 
+<br>
 <h2>How it works</h2>
+<center>
+	<img src="Images/public-key-vs-private-key.png" width="900" height="500">
+</center>
+<br><br>
 <p>The sender and the receiver are two partners in the asymmetric encryption workflow; each has its own pair of public and private keys. Firstly, the sender gets the public key from the recipient. First, the plaintext — or regular, readable text — is encoded using the public key of the receiver by the sender; this produces ciphertext. The ciphertext is then sent to the receiver, who with their private key decrypts the ciphertext and returns it to plaintext that is legible.</p>
+<p>Because of the nature of the asymmetric encryption function, one sender is unable to read the messages of another sender, even though each has the public key of the receiver.</p>
+
+<h2>Uses of asymmetric encryption</h2>
+<p>Asymmetric cryptography is usually used with digital signatures to authenticate the data. A digital signature is a mathematical technique used for validating a letter, device, or digital document's authenticity and integrity. This is the digital equivalent of a signed seal or handwritten signature.</p>
+<br>
+<p>Digital signatures, based on asymmetric cryptography, may provide guarantees of the origin, identity, and status of an electronic document, transaction, or message, as well as accept informed consent from the signer.</p>
+
+<p>Asymmetric cryptography can also be extended to systems where messages can need to be encrypted and decrypted by multiple users including:</p>
+<ul>
+	<li><b>Encrypted E-mail:</b> The public key is used to encrypt the message, while the private key is used to decrypt it.</li>
+	<li><b>SSL/TLS:</b>Use Asymmetic encryption to esablish an encrypted channel between the server and the user's web browsers.</li>
+</ul>
+<br><br>
+<h2>Examples</h2>
+<p>There are a lot of Asymmetric key encryption algorithms, and below sample of it:</p>
+<ul>
+	<li><b>Diffie–Hellman.</b></li>
+	<li><b>ElGamal encryption system.</b></li>
+	<li><b>RSA.</b></li>
+	<li><b>Elliptic-curve cryptography (ECC).</b></li>
+	<li><b>Cramer–Shoup cryptosystem</b></li>
+</ul>
 </body>
 </html>
 
