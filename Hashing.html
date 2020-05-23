@@ -29,9 +29,7 @@
 
 <p>Hashing is used to verify the intergrity, so it verifies that the message is never changed during the journey from the sender to receiver.</p>
 
-<p>Hashing is laso can be using in other things than security and intgerity verification.</p>
-<br><br>
-<h2>How it works?</h2>
+<p>Hashing is also can be using in other things than security and intgerity verification.</p>
 <p>By creating a hash for the plaintext message and send it with the message, when the receiver get the message, he will calculate the hash for it then compare it with the received hash, if equal, so the message was not changed while tranferring.</p>
 <center>
 	<img src="Images/hashing-how-works.png" width="900" height="500">
@@ -53,7 +51,12 @@
 	<li>Every change to a message should change its hash value, even the smallest one. It should be altogether different. The avalanche effect is called</li>
 </ul>
 <br><br>
-<h2>Samples of Hashing Algorithms</h2>
-
+<h2>Types of Hashing</h2>
+<p>There are several different kinds of hash algorithms, such as RipeMD, Tiger, xxhash and more, but MD5, SHA-2 and CRC32 are the most common kind of hashing used for file integrity checks.</p>
+<ul>
+	<li><b>MD5:</b>The MD5 hash function encodes and encodes a string of information into a 128-bit fingerprint. MD5 is commonly used as a check sum for data integrity verification. Because of its age, however, MD5 is often considered to suffer from severe vulnerabilities in hash collisions, however it is nevertheless one of the world's most commonly used algorithms.</li>
+	<li><b>SHA-2:</b> developed by the National Security Agency ( NSA), is a method of cryptographic hash. SHA-2 makes major improvements to its predecessor, SHA-1. The SHA-2 family consists of six hash functions with 224, 256, 384 or 512 bit digests (hash values): SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, SHA-512/256.</li>
+	<li><b>CRC32:</b> Cyclic redundancy test (CRC) is an error detection application which is also used to detect unintended data changes. Encoding the same data string using CRC32 will always result in the same hash performance, so often CRC32 is used as a hash algorithm for verifying file integrity. CRC32 is seldom used outside of Zip files these days.</li>
+</ul>
 </body>
 </html>
